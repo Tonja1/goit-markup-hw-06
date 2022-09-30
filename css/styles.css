@@ -346,6 +346,10 @@ p {
   transition: fill 250ms var(--timing-funcion);
 }
 
+.close:hover {
+  fill: var(--accent-cl);
+}
+
 .registr-form {
   position: relative;
   padding: 40px;
@@ -378,6 +382,7 @@ label {
 
 .registr-form-lable {
   display: block;
+  text-align: left;
   font-size: 12px;
   line-height: 1.16;
   margin-bottom: 4px;
@@ -395,6 +400,7 @@ label {
   transition: border-color 250ms var(--timing-funcion);
 }
 
+.registr-form-input:hover,
 .registr-form-input:focus {
   border-color: var(--accent-cl);
 }
@@ -420,6 +426,11 @@ label {
   outline: transparent;
   resize: none;
   transition: border-color 250ms var(--timing-funcion);
+}
+
+.registr-form-message:focus,
+.registr-form-message:hover {
+  border-color: var(--accent-cl);
 }
 
 .registr-form-agreement {
@@ -449,6 +460,7 @@ label {
 }
 
 .registr-form-desc {
+  color: var(--txt-col);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -458,8 +470,6 @@ label {
 .registr-form-link {
   color: var(--accent-cl);
 }
-
-
 
 /* Наші переваги */
 
@@ -744,6 +754,57 @@ label {
 .social-link-footer:focus {
   color: var(--txt-but);
   background-color: var(--accent-cl);
+}
+
+.footer-subscribe {
+  margin-left: 93px;
+}
+.subscribe-title {
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--txt-but);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+}
+
+.input-subscribe-form {
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: inherit;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.subscribe-btn {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background: var(--accent-cl);
+  border-radius: 4px;
+  border: 1px solid var(--accent-cl);
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.06em;
+  padding: 10px 28px;
+  color: var(--txt-but);
+}
+
+.icon-send {
+  display: block;
+  position: absolute;
+  right: 28px;
 }
 
 .port-list {
