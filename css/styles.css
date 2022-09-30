@@ -346,6 +346,121 @@ p {
   transition: fill 250ms var(--timing-funcion);
 }
 
+.registr-form {
+  position: relative;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+label {
+  display: flex;
+}
+
+.registr-form-title {
+  font-weight: 700;
+  font-size: 20;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+  color: var(--subtitle-col);
+}
+
+.registr-form-group {
+  margin-bottom: 20px;
+}
+
+.registr-field {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.registr-form-lable {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  margin-bottom: 4px;
+  color: var(--txt-col);
+}
+
+.registr-form-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: transparent;
+  transition: border-color 250ms var(--timing-funcion);
+}
+
+.registr-form-input:focus {
+  border-color: var(--accent-cl);
+}
+
+.registr-form-input:focus + .registr-form-icon {
+  fill: var(--accent-cl);
+}
+
+.registr-form-icon {
+  position: absolute;
+  bottom: 11px;
+  left: 12px;
+  width: 18px;
+  transition: fill 250ms var(--timing-funcion);
+}
+
+.registr-form-message {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 12px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms var(--timing-funcion);
+}
+
+.registr-form-agreement {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon-checked {
+  opacity: 0;
+  transition: opacity 250ms var(--timing-funcion);
+}
+
+.icon-unchecked {
+  transition: opacity 250ms var(--timing-funcion);
+}
+
+.registr-form-checkbox:checked + .registr-form-icons .icon-checked {
+  opacity: 1;
+}
+
+.registr-form-checkbox:checked + .registr-form-icons .icon-unchecked {
+  opacity: 0;
+}
+
+.registr-form-desc {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  user-select: none;
+}
+
+.registr-form-link {
+  color: var(--accent-cl);
+}
+
+
+
 /* Наші переваги */
 
 .visually-hidden {
