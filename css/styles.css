@@ -199,8 +199,8 @@ p {
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
