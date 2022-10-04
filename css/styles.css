@@ -136,8 +136,8 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-funcion);
@@ -170,12 +170,13 @@ p {
 
 .link-mail {
   display: flex;
+  font-size: 14px;
   font-weight: 500;
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
@@ -193,6 +194,7 @@ p {
 
 .link-tel {
   display: flex;
+  font-size: 14px;
   font-weight: 500;
   gap: 10px;
   align-items: center;
@@ -263,6 +265,7 @@ p {
 
 .slogan {
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -552,6 +555,7 @@ label {
   width: 100%;
   background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
+  font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   display: flex;
@@ -831,6 +835,7 @@ label {
   font-family: inherit;
   background: var(--backgr-filtr);
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--subtitle-col);
